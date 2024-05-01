@@ -9,7 +9,13 @@
             display: none;
             max-width: 100%;
             height: auto;
-            width: 170px; /* Adjust the width as needed */
+            width: 210px; /* Adjust the width as needed */
+        }
+        #successGif {
+            display: none;
+            max-width: 100%;
+            height: auto;
+            width: 210px; /* Adjust the width as needed */
         }
     </style>
     
@@ -20,7 +26,7 @@
     <button id="startButton">Start Listening</button>
     <div id="resultMessage" style="display: none;">
         <h2>Its ok, kitten</h2>
-        <p>Dont fuck with my ID again. XOXO</p>
+        <p>Dont fuck with my ID again, ok pookie?</p>
     </div>
     <div id="listeningIndicator" style="display: none;">
         <img src="listening.gif" alt="Listening">
@@ -28,6 +34,7 @@
     <audio id="listeningAudioStart" src="listeningStart.m4a" loop></audio>
     <audio id="listeningAudioSuccess" src="listeningSuccess.m4a"></audio>
     <img id="successImage" src="map.jpg" alt="Success Map" style="display: none;">
+    <img id="successGif" src="success.gif" alt="Success GIF" style="display: none;">
     <div id="speechText"></div>
     <ul id="speechList"></ul>
     <script src="script.js"></script>
