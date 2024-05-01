@@ -47,6 +47,7 @@ if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
             resultMessage.style.display = 'block';
             listeningAudioSuccess.play();
             successImage.style.display = 'block'; // Display the success image
+            successGif.style.display = 'block';
         }
     };
 
